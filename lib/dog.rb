@@ -17,7 +17,7 @@ class Dog
   end
   
   def self.print_all
-    puts @@all.flatten
+    puts @@all.name.flatten
   end
   
 end
