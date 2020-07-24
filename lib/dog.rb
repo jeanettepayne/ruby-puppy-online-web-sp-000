@@ -18,10 +18,8 @@ class Dog
   
   def self.print_all
    @@all.each do |dog|
-     dog.each do |obj_id, name|
-       puts name
+     puts dog.name
      end
-   end
   end
   
   def save
