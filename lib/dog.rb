@@ -17,7 +17,10 @@ class Dog
   end
   
   def self.print_all
-   puts @@all.to_s
+   @@all.each do |dog|
+     dog.each do |obj_id, name|
+       puts name
+     end
   end
   
   def save
