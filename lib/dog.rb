@@ -21,6 +21,7 @@ class Dog
      dog.each do |obj_id, name|
        puts name
      end
+   end
   end
   
   def save
